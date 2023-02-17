@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "@playwright/test": "^1.30.0",
+    "dotenv": "^16.0.3",
+    "playwright": "^1.30.0"
+  },
+  "name": "demo",
+  "version": "1.0.0",
+  "main": "cucumber.js",
+  "scripts": {
+    "chromium": "cucumber-js -p forChromiumTest",
+    "firefox": "cucumber-js -p forFirefoxTest",
+    "webkit": "cucumber-js -p forwebkitTest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
